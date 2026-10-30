@@ -14,7 +14,7 @@ hf download Comfy-Org/Wan_2.1_ComfyUI_repackaged split_files/diffusion_models/wa
 hf download Kijai/wav2vec2_safetensors wav2vec2-chinese-base_fp16.safetensors --local-dir $M/audio_encoders
 hf download Kijai/WanVideo_comfy Lightx2v/lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors --local-dir $T
 hf download Kijai/WanVideo_comfy Wan2_1_VAE_fp32.safetensors --local-dir $M/vae
-hf download AniWanefrrr/202508_wan21UMT5XxlFP32_fp32 wan21UMT5XxlFP32_fp32.safetensors --local-dir $M/text_encoders
+hf download Comfy-Org/Wan_2.1_ComfyUI_repackaged split_files/text_encoders/umt5_xxl_fp16.safetensors --local-dir $T  # the pod template's fp32 UMT5 repo is gated
 hf download ricecake/wan21NSFWClipVisionH_v10 wan21NSFWClipVisionH_v10.safetensors --local-dir $M/clip_vision
 hf download lightx2v/Qwen-Image-Edit-2511-Lightning qwen_image_edit_2511_fp8_e4m3fn_scaled_lightning_comfyui_4steps_v1.0.safetensors --local-dir $M/diffusion_models
 hf download Comfy-Org/Qwen-Image_ComfyUI split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors split_files/vae/qwen_image_vae.safetensors --local-dir $T
