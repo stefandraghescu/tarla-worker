@@ -27,4 +27,4 @@ mv $T/split_files/vae/* $M/vae/
 rm -rf $T $M/*/.cache
 find $M -type f -size +1M -printf "%10s  %p\n" | sort -k2
 du -sh $M
-echo DRAMAWAVE_VOLUME_READY
+echo VOLUME_READY

@@ -22,5 +22,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/stefandraghescu/dramawave-worker:latest
-            ghcr.io/stefandraghescu/dramawave-worker:${{ github.sha }}
+            ghcr.io/stefandraghescu/tarla-worker:latest
+            ghcr.io/stefandraghescu/tarla-worker:${{ github.sha }}
