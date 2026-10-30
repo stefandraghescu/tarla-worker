@@ -1,6 +1,6 @@
 # tarla ComfyUI serverless worker: the official worker plus the one custom node our workflows need.
 # Models are not baked in; they live on the network volume (see stage_models.sh).
-FROM runpod/worker-comfyui:5.11.0-base
+FROM runpod/worker-comfyui:5.10.0-base
 
 # UnetLoaderGGUF (Wan 2.2 I2V Q8 GGUF)
 RUN comfy-node-install comfyui-gguf

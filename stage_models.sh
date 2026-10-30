@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Run ONCE on a temporary pod that mounts the network volume at /workspace, to fill it with the
-# DramaWave models (~85 GB). Serverless workers see the same volume at /runpod-volume.
+# series models (~85 GB). Serverless workers see the same volume at /runpod-volume.
 set -euo pipefail
 M=/workspace/models
 mkdir -p $M/unet $M/diffusion_models $M/model_patches $M/audio_encoders $M/loras $M/text_encoders $M/vae $M/clip_vision
